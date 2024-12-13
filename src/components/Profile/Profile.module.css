@@ -1,0 +1,57 @@
+.profileAvatar {
+  max-width: 40%;
+  max-height: 40%;
+
+  margin: 0 auto;
+
+  background-color: #2a2a2a;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profileCard {
+  max-width: 250px;
+  background-color: transparent;
+
+  border: 2px solid #000;
+  border-radius: 8px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.profileStatsList {
+  display: flex;
+  background-color: #c9c9c9;
+  border-top: 1.5px solid #909090;
+}
+
+.profileStatsItem {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+}
+
+.profileStatsItem:nth-child(2) {
+  border-left: 1.5px solid #909090;
+  border-right: 1.5px solid #909090;
+}
+
+.profileDesc {
+  padding: 10px;
+}
+
+.profileName {
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.profileInfo {
+  color: #7c7c7c;
+}
+
+.profileStatsItem > span:last-child {
+  font-weight: 500;
+}
