@@ -1,0 +1,10 @@
+.profileAvatar {
+  max-width: 33%;
+  max-height: 33%;
+
+  margin: 0 auto 1.5rem;
+
+  background-color: #2a2a2a;
+  border-radius: 50%;
+  overflow: hidden;
+}
