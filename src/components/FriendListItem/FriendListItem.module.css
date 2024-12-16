@@ -1,0 +1,22 @@
+.itemCard {
+  border: 1.5px solid black;
+  border-radius: 4px;
+  min-width: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.textCard {
+  font-weight: bold;
+}
+
+.isOnline {
+  color: green;
+}
+
+.isOffline {
+  color: red;
+}
